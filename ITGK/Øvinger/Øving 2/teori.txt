@@ -1,0 +1,5 @@
+a.
+    Primærlagring er volatil og rask, mens sekundærlagring er ikke-volatil og relativt treg
+b.
+    RAM - Volatil, tilfeldig
+    

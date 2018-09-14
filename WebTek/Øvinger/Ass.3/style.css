@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  min-height: -webkit-fill-available;
+}
+
+.wrapper {
+  position: relative;
+  margin: 0;
+  padding-bottom: 4em;
+  width: 100%;
+  min-height: -webkit-fill-available;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 0.5em;
+  width: 100%;
+  background: #323232;
+  color: #efefef;
+}
+
+/* Part 4 */
+ul {
+  list-style: square;
+}
+
+ul ul li:last-child {
+  color: aqua;
+  font-size: 3em;
+}
+
+li:first-child {
+  color: firebrick;
+  font-size: 1.5em;
+}
+
+li:nth-child(2) {
+  color: forestgreen;
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    background: #eee;
+}
+
+body>header {
+    background: firebrick;
+    color: #eee;
+    padding: 10px;
+}
+
+header {
+    font-family: Arial;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    width: 80%;
+    padding: 10px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: #222 2px 2px 2px 2px;
+}
+
+img {
+    width: 150px;
+    border: 1px #222 solid;
+}
+
+footer {
+    background: #222;
+    color: #eee;
+    padding: 10px;
+}

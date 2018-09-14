@@ -1,0 +1,43 @@
+INFO
+Dette programmet besvarer om din utleie av egen bolig er skattepliktig.
+Først trenger vi å vite hvor stor del av boligen du har leid ut.
+Angi dette i prosent, 100 betyr hele boligen, 50 betyr halve,
+20 en mindre del av boligen som f.eks. en hybel.
+----------------------------------------------------------------------
+DATAINNHENTING:
+Oppgi hvor mye av boligen som ble utleid: 65
+Skriv inn hva du har hatt i leieinntekt: 45000
+  
+----------------------------------------------------------------------
+SKATTEBEREGNING:
+Inntekten er skattepliktig
+Skattepliktig beløp er 45000
+
+
+
+INFO
+Dette programmet besvarer om din utleie en annen type bolig,
+her sekundær- eller fritidsbolig, er skattepliktig.
+Først trenger vi å vite om du leier ut en sekundær- eller en fritidsbolig.
+---------------------------------------------------------------------
+DATAINNHENTING:
+Skriv inn type annen bolig (sekundærbolig/fritidsbolig) du har leid ut: Fritidsbolig
+  
+INFO
+Du har valgt fritidsbolig.
+Nå trenger vi først å vite om fritidsboligen(e) primært brukes til utleie eller fritid.
+Deretter trenger vi å vite hvor mange fritidsbolig(er) du leier ut.
+Til slutt trenger vi å vite hvor store utleieinntekter du har pr. fritidsbolig.
+  
+---------------------------------------------------------------------
+DATAINNHENTING:
+Skriv inn formålet med fritidsboligen(e): Fritid
+Skriv inn antallet fritidsboliger du leier ut: 3
+Skriv inn utleieinntekten pr. fritidsbolig: 15000
+  
+---------------------------------------------------------------------
+SKATTEBEREGNING:
+Inntekten er skattepliktig
+Overskytende beløp pr. fritidsbolig er 5000
+Skattepliktig inntekt pr. fritidsbolig er 4250
+Totalt skattepliktig beløp er 12750

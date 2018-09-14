@@ -1,0 +1,8 @@
+a.
+    Alan Turing er kjent for viktige bidrag til informatikkens teoretiske grunnlag.
+b. 
+    Datterkort
+c.
+    Central Processing Unit
+d.
+    "Random" betyr i dette tilfellet at datamaskinen kan referere til lokasjoner i minnet i vilkårlig rekkefølge

@@ -1,0 +1,124 @@
+
+/*****************************
+    OPPSETT
+*****************************/
+
+:root{
+    --color-main: #1883D2;
+    --color-second: #223E52;
+    --color-highlight: #D28718;
+    --color-dg: #252525;
+    --color-icon: #f7f0ea;
+    --color-darken: rgba(0, 0, 0, 0.1);
+    
+}
+
+@font-face{
+    font-family: Roboto;
+    src: url('../fonts/roboto/Roboto-Regular.ttf')
+}
+
+
+/*****************************
+    GENERELT
+*****************************/
+
+body{
+    font-family: 'Roboto';
+    background: var(--color-darken);
+    color: var(--color-dg);
+}
+
+h3, h4{
+    color: var(--color-highlight);
+}
+
+.main-box{
+    width: 75%;
+    margin: 20px auto;
+    margin-bottom: 150px;
+    padding: 20px;
+    background: white;
+}
+
+.hidden{
+    display: none;
+}
+
+/*****************************
+    NAVBAR
+*****************************/
+
+nav{
+    margin: 0;
+    padding-top: 15px;
+    text-align: center;
+    border-bottom: 2px var(--color-highlight) solid;
+    background: var(--color-main);
+}
+
+nav h1{
+    display: inline;
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 0;
+    background: var(--color-darken);
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    display: inline-block;
+    margin: 0;
+    padding: 10px 15px;
+    color: var(--color-dg);
+    text-decoration: none;
+    animation-duration: 1s;
+}
+
+nav a:hover{
+    text-decoration: none;
+    background: var(--color-dg);
+    color: var(--color-highlight);
+}
+
+
+/*****************************
+    FOOTER
+*****************************/
+
+footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr  1fr  1fr;
+    color: var(--color-icon);
+    background: var(--color-dg);
+    position: fixed;
+    bottom: 0;
+}
+
+/*****************************
+    INNHOLD
+*****************************/
+#poster{
+    display: inline-block;
+    height: 500px;
+    margin: auto;
+}
+
+.infobox{
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 5px;
+
+    border: var(--color-second) 1px solid;
+    box-shadow: 2px 2px 2px 2px var(--color-darken);
+}
