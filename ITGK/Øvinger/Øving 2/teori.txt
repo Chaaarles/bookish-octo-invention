@@ -1,5 +1,17 @@
 a.
     Primærlagring er volatil og rask, mens sekundærlagring er ikke-volatil og relativt treg
 b.
-    RAM - Volatil, tilfeldig
+    HDD - En spinnende disk lagrer data. Relativt treg lagring, men er permanent.
+    SSD - En solid disk av halvledere. Ingen bevegelige deler og har potensiale til å operere meget kjapt. Dette er også et permanent lagringsmedium. 
+    RAM - Her snakker vi ekstreme hastigheter og tilfeldig tilgang til data. Volatil :(
+
+c.
+    Silisium brukes mye i elektronikk fordi det gjennom doping kan gjøres om til en halvleder som brukes i transistorer.
+
+d.
+    En transistor er et elektronisk komponent som består av n- og p-dopet silisium. 
+    Den fungerer som en elektronisk bryter uten bevegelige komponenter.
+
+e.
+    6400 bits/s
     
