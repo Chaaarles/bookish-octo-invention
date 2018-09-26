@@ -1,0 +1,24 @@
+a.
+    Instruction Fetch
+    Instruction Decode
+    Data Fetch
+    Instruction Execution
+    Result Return
+
+b.
+    Data Fetch-steget henter verdiene til ALU
+
+c.
+    PC holder styr på addressen til neste instruksjon i minnet.
+
+d.
+    En moderne datamaskin forventes å ha opptil flere GHz i klokkehastighet
+
+e.
+    SSD - Solid State Drive
+
+f.
+    Forskjellen mellom en SSD og en HDD er at SSD ikke har noen bevegelige deler, men består av halvledere
+
+g.
+    En ALU gjør logiske operasjoner med verdier fra minnet
