@@ -18,7 +18,9 @@ e.
     SSD - Solid State Drive
 
 f.
-    Forskjellen mellom en SSD og en HDD er at SSD ikke har noen bevegelige deler, men består av halvledere
+    HDD er en mekanisk spinnende disk som koder informasjon magnetisk
+    Derimot, er SSD et lagringsmedie uten bevegelige deler som bruker flash-minne for å lagre
+    SSD er raskere og tåler vibrasjoner og fysisk støt bedre enn en HDD
 
 g.
     En ALU gjør logiske operasjoner med verdier fra minnet
