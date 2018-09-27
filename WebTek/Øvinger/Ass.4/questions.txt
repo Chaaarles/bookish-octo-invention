@@ -1,0 +1,9 @@
+1.
+    Mobile phones usually ignore autoplay to reduce data usage
+
+2.
+    The CSS snippet would do nothing on the device because the screen dimensions are outside of the specified range
+
+3.
+    Having a singular responsive website means you do not have to keep two separate sites up to date.
+    Also, with a separate mobile site you could run into usability problems when bookmarking sites on mobile and opening them on a desktop
