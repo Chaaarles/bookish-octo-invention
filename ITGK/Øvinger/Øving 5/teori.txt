@@ -1,0 +1,21 @@
+a)
+    2³² = 256⁴ forskjellige verdier
+
+b) 
+    (1920 * 1080) / 8 = 259200 bytes ≃ 259.2 kilobytes
+
+c)
+    En DAC er en digital til analog-omformer, en elektronisk enhet som konverterer digitale signaler til analoge signaler.
+
+d)
+    (18)₁₀ = (10010)₂ = (12)₁₆
+
+e)
+    'POP' = '0101 0000 0100 1111 0101 0000'
+
+f)
+    En piksel er et svært lite område på en skjerm hvor lysstyrken kan justeres.
+    Pikselens funksjon er å sammen med andre piksler fremstille digitale data som lys, gjerne i form av et sammensatt bilde.
+
+g)
+    Analog lyd er sammenhengende kontinuerlige lydbølger, mens digital lyd er en serie diskrete verdier.
