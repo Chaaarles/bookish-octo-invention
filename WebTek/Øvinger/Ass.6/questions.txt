@@ -1,0 +1,20 @@
+1.
+    0.1 + 0.2 === 0.3 evaluates to false in JS because of how computers store floating point numbers.
+    Numbers(n) that are not possible to write as n/2^m will be stored as repeating binary numbers.
+    However, repeating numbers have to end at some point, as JS stores floats as 64 bit not Infinite bit.
+    That cutoff point is the cause of our error.
+
+2.
+    The method attribute on a form decides what will be done when the form is submitted.
+
+3.
+    The POST method communicates with the server, sending data to get an appropriate response.
+    GET requests a resource by including the data directly in the URL.
+
+4.
+    HTML5 and JS validation are both client-side, meaning that a person with some technical know-how could send bad and/or harmful data to a system.
+    Therefore it is considered good practice to also implement server-side validation.
+
+5.
+    It is appropriate to use 'textarea' over 'input' when you want to input a lot of text.
+    Unlike an 'input' text in a 'textfield' can be written over multiple lines.    
