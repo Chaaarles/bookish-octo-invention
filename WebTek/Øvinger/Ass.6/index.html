@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tax form</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="http://folk.ntnu.no/michaedm/norwegian-tax-administration/receive.php" method="post">
+            <label for="name">Real name:</label> 
+            <input type="text" name="name" id="name" required>
+            <br>
+            Gender:
+            <input type="radio" name="gender" value="male" id="male" required>
+            <label for="male">Male</label> 
+            <input type="radio" name="gender" value="female" id="female" required>
+            <label for="female">Female</label>
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" name="birthdate" id="birthdate" max="1987-12-31" required>
+            <br>
+            <label for="hero">Hero name:</label>
+            <input type="text" name="hero" id="hero" required>
+            <br>
+            Do you wear spandex?
+            <input type="radio" name="spandex" value="yes" id="yes" required> 
+            <label for="yes">Heck yes!</label>
+            <input type="radio" name="spandex" value="no" id="no" required>
+            <label for="no">Nah m'dude</label>
+            <br>
+            Strength:
+            1<input type="range" name="strength" id="strength" min="1" max="10" step="1">10
+            <br>
+            Speed:
+            1<input type="range" name="speed" id="speed" min="1" max="10" step="1">10
+            <br>
+            Intelligence:
+            1<input type="range" name="intelligence" id="intelligence" min="1" max="10" step="1">10
+            <br>
+            <label for="income">Income:</label>
+            <input type="number" name="income" id="income" min="0" required oninput="taxCalc()">
+            <br>
+            <label for="wealth">Savings:</label>
+            <input type="number" name="wealth" id="wealth" min="0" required oninput="taxCalc()">
+            <br>
+            Tax: 
+            <input type="number" name="tax" id="tax" disabled>
+            <br>
+            <input type="submit" value="Submit tax form">
+        </form>
+        <script>
+            const income = document.getElementById("income");
+            const wealth = document.getElementById("wealth");
+            const tax = document.getElementById("tax");
+            
+            function taxCalc(){
+                tax.value = income.value * 0.35 + wealth.value * 0.25;
+            }
+        </script>
+    </body>
+</html>
