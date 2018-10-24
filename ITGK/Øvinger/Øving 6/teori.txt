@@ -1,0 +1,26 @@
+a)
+    TCP/IP funksjonalitet er fordelt over 4 lag. HTTP(HyperText Transfer Protocol), SMTP(Simple Mail Transfer Protocol) og
+    FTP(File Transfer Protocol) er i laget "Application".
+    Her håndteres filoverføring, terminaloppkobling og e-post.
+
+b)
+    Den kan detektere om en byte er "feil". I en byte blir den ene bit'en på enden en 'paritetsbit'.
+    Summen av alle tallene i byten skal bli et partall; hvis ikke er byten feil. (finnes også oddetallsparitet)
+
+c) 
+    Circuit switching bruker en fysisk kobling mellom kilden og resultatadressen, noe som bruker en del av båndbredden.
+    Dette gjør ikke packet switching, som deler båndbredden. Mer effektivt, siden packets blir overført uavhengig av hverandre.
+
+d) 
+    Ruteren videresender nettverkspakker til riktig mottaker. 
+    Den har en tabell over nettverk, som sjekkes med mottakeradressen før pakken sendes.
+
+e)
+    Et sett med regler som bestemmer kommunikasjon, datoverføring og tilkobling mellom sender og mottaker (og mulige feilinduserte gjenopprettingsmeotder)
+
+f)  
+    - Application
+    - Transport
+    - Internet
+    - Data link
+    - Physical
