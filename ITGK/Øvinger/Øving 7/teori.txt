@@ -1,0 +1,22 @@
+a)
+    Intranett er et beskyttet vebbområde eller vebbside hvor en begrenset brukergruppe har tilgang
+
+b)
+    En ruter er en enhet på et nettverk med oppgave å rute pakker fra en datamaskin til en annen
+    En vert er en enhet som er koblet til et nettverk
+
+c)
+    129.241.103.4  er et eksempel på en IP-adresse
+
+d)
+    En IP-adresse er en unik id som brukes for å finne en enhet på et nettverk
+
+e)
+    IPv4 er 32 bit mens IPv6 er 128 bit
+
+f)
+    Vi har behov for IPv6 fordi IPv4 bare støtter omlag 4.3mrd unike addresser.
+    Antall enheter på internett er den dag i dag meget høyere enn dette.
+
+g)
+    Internet Service Provider eller internettleverandør på norsk
