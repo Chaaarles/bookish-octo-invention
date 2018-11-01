@@ -1,0 +1,12 @@
+1.
+    getContext('webgl)
+
+2.
+    With a canvas set up, and context set to 2d i would run the following code:
+    context.fillStyle = 'blue'
+    context.beginPath()
+    context.arc(xPos, yPos, radius, 0, Math.PI * 2)
+    context.fill()
+
+3.
+    countriesStartingWithN.push(countries.filter(country => country.toLowerCase().includes("n")));
